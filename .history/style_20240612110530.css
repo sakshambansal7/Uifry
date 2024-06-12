@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav__link {
+    display: block;
+    padding: .3125rem 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .nav__link.active  {
+    border: 1px solid #ff4b4c;
+    color: #ff4b4c;
+  }

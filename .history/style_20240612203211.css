@@ -1,0 +1,278 @@
+
+*{
+    margin: 0px;
+    padding: 5px;
+   
+}
+body {
+  margin-left: 20vh;
+  margin-right: 20vh;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+  /* navbar */
+.logo {
+  width: 120px;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.nav{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+nav  {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.button {
+  width: 160px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  margin-left: 40vh;
+}
+.download{
+
+  padding-top: 10px;
+}
+
+
+.nav__link {
+    display: block;
+    padding: .3125rem 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .nav__link.active  {
+   
+    color: #FF5E08;
+  }
+
+  /* part-1 */
+
+  .part1 {
+    height: 85vh;
+    display: inline-flex;
+        justify-content: space-between;
+        top: 50px !important;
+        inset: 0;
+
+
+    padding: 60px 40px;
+}
+  
+/* .absolute{
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+} */
+.left {
+  max-width: 50%;
+}
+
+.part1 h1 {
+  font-size: 3em;
+  margin: 0 0 20px;
+}
+
+.part1 p {
+  font-size: 1.2em;
+  margin: 0 0 40px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.get-started-btn,
+.watch-video-btn {
+  background: #000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.watch-video-btn {
+  color: #000000;
+
+  background: transparent;
+}
+
+.right {
+  max-width: 50%;
+  position: relative; /* Add position relative to use as a reference for absolute positioning */
+}
+
+.right .image1{
+  
+  position: absolute;
+  z-index: 3; 
+  width: 100%;
+  padding-left: 0px;
+  
+
+
+}
+.right .image2 {
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 100px;
+
+
+  z-index: 2; 
+  max-width: 100%;
+}
+.right .image3 {
+  
+
+  padding-top: 100px;
+  padding-left: 200px;
+  z-index: 1; 
+  max-width: 100%;
+} 
+/* background-effect */
+
+
+.justify-center{
+  justify-content: center;
+}
+
+/* background-effect */
+.left {
+  max-width: 50%;
+  position: relative; /* Add this line */
+}
+
+.bg-shape1 {
+  width: 400px;
+  height: 400px;
+  border-radius: 9999px;
+  position: absolute; /* Change to absolute for proper positioning */
+  top: 0px; /* Positioning adjustments */
+  left: 50%; /* Positioning adjustments */
+  transform: translateX(-50%); /* Center the shape horizontally */
+  z-index: -1; /* Ensure it's behind the text */
+  background: linear-gradient(45deg,  #FDE598,#ff3508); /* Dual color gradient */
+  opacity: 0.5; /* Adjust as necessary */
+  filter: blur(40px);
+  
+}
+
+.bg-shape2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 9999px;
+  position: absolute; /* Change to absolute for proper positioning */
+  top: 50px; /* Positioning adjustments */
+  left: 50%; /* Positioning adjustments */
+  transform: translateX(-50%); /* Center the shape horizontally */
+  z-index: -1; /* Ensure it's behind the text */
+  background: linear-gradient(45deg,  #FDE598,#ff3508); /* Dual color gradient */
+  opacity: 0.5; /* Adjust as necessary */
+  filter: blur(40px);
+  
+}
+
+  /* circular shape */
+
+  .elipse-common {
+   
+    background: none;
+    border-radius: 50%;
+    -ms-transform: rotate(40deg);  /* IE 9 */
+    -webkit-transform: rotate(40deg);  /* Safari */
+    transform: rotate(40deg);
+    position: absolute;
+    top: 150px;
+    border: 5px solid black;
+    z-index: -1; /* Ensure it's behind the text */
+}
+
+.elipse {
+  width: 700px;
+  height: 305px;
+    left: 45px;
+
+}
+
+.elipse1 {
+  width: 700px;
+  height: 305px;
+    left: 25px;
+}
+
+.elipse2 {
+  width: 700px;
+  height: 305px;
+    left: 5px;
+}
+.elipse3 {
+  width: 500px;
+  height: 305px;
+    left: 45px;
+
+}
+
+.elipse4 {
+  width: 500px;
+  height: 305px;
+    left: 25px;
+}
+
+.elipse5 {
+  width: 500px;
+  height: 305px;
+    left: 5px;
+}
+
+
+.part2{
+  display: flex;
+  height: 85vh;
+}
+
+  .part2 .left .image1{
+    transform: rotate(15deg);
+  }
+
+  .part2 .right{
+    background-color: #FF5E08;
+  }
+  .part2 
+
+
+
+
+
+
+
+
